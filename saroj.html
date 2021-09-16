@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content=
+
+        "width=device-width, initial-scale=1.0">
+
+    <title>
+
+        vactination servey form -saroj kumar manna
+
+    </title>
+ 
+
+    <style>
+ 
+
+        /* Styling the Body element i.e. Color, 
+        Font, Alignment */ 
+
+        body {
+
+            background-color: YELLOW;
+
+            font-family: Verdana;
+
+            text-align: center;
+
+        }
+ 
+
+        /* Styling the Form (Color, Padding, Shadow) */
+
+        form {
+
+            background-color: PINK;
+			
+
+            max-width: 500px;
+
+            margin: 50px auto;
+
+            padding: 30px 20px;
+
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+
+        }
+ 
+
+        /* Styling form-control Class */
+
+        .form-control {
+
+            text-align: left;
+
+            margin-bottom: 25px;
+
+        }
+ 
+
+        /* Styling form-control Label */ 
+
+        .form-control label {
+
+            display: block;
+
+            margin-bottom: 10px;
+
+        }
+ 
+
+        /* Styling form-control input, 
+        select, textarea */
+
+        .form-control input,
+
+        .form-control select,
+
+        .form-control textarea {
+
+            border: 1px solid #777;
+
+            border-radius: 2px;
+
+            font-family: inherit;
+
+            padding: 10px;
+
+            display: block;
+
+            width: 95%;
+
+        }
+ 
+
+        /* Styling form-control Radio 
+        button and Checkbox */
+
+        .form-control input[type="radio"],
+
+        .form-control input[type="checkbox"] {
+
+            display: inline-block;
+
+            width: auto;
+
+        }
+ 
+
+        /* Styling Button */
+
+        button {
+
+            background-color: #05c46b;
+
+            border: 1px solid rgba(119, 119, 119, 0.411);
+
+            border-radius: 2px;
+
+            font-family: inherit;
+
+            font-size: 21px;
+
+            display: block;
+
+            width: 100%;
+
+            margin-top: 50px;
+
+            margin-bottom: 20px;
+
+        }
+
+    </style>
+
+</head>
+
+  
+
+<body>
+
+    <h1> S.K.M INSTITUTE OF TECHNOLOGY<BR><h2>Students  Vaccination Survey Form </h2><br> Please Fill Up This Form Carefully</h1>
+
+  
+
+   
+
+    <form id="form">
+ 
+
+     
+
+        <div class="form-control">
+
+            <label for="NAME" id="label-name">
+
+                NAME
+
+            </label>
+ 
+
+          
+
+            <input type="text"
+
+                   id="NAME"
+
+                   placeholder="Enter your name" />
+
+        </div>
+
+  
+
+        <div class="form-control">
+
+            <label for="EMAIL" id="label-email">
+
+                EMAIL
+
+            </label>
+ 
+
+         
+
+            <input type="EMAIL"
+
+                   id="EMAIL"
+
+                   placeholder="Enter your email" />
+
+        </div>
+
+  
+
+        <div class="form-control">
+		
+		<label>DEPARTMENT
+
+                <small>(only one apply)</small>
+
+            </label>
+
+           
+            <label for="inp-1">
+
+                <input type="checkbox"
+
+                       name="inp">ECE</input></label>
+
+            <label for="inp-2">
+
+                <input type="checkbox"
+
+                       name="inp">CSE</input></label>
+
+            <label for="inp-3">
+
+                <input type="checkbox"
+
+                       name="inp">IT</input></label>
+
+ 
+
+         
+
+           
+
+        </div>
+
+        <div class="form-control">
+
+            <label for="ROLL NO" id="label-ROLL NO">
+
+                ROLL NO
+
+            </label>
+ 
+
+        
+
+            <input type="text"
+
+                   id="ROLL NO"
+
+                   placeholder="Enter your ROLL NO" />
+
+        </div>
+
+
+    <div class="form-control">
+
+        <label for="ACADEMIC YEAR" id="label-ACADEMIC YEAR">
+
+            ACADEMIC YEAR
+
+        </label>
+
+
+       
+
+        <input type="text"
+
+               id="ACADEMIC YEAR"
+
+               placeholder="Enter your ACADEMIC YEAR" />
+
+    </div>
+
+
+  
+
+
+
+       
+
+  
+
+        <div class="form-control">
+
+            <label>
+
+                HAVE YOU BEEN VACCINATED?
+
+            </label>
+ 
+
+           
+
+            <label for="recommed-1">
+
+                <input type="radio"
+
+                       id="recommed-1"
+
+                       name="recommed">Yes</input>
+
+            </label>
+
+            <label for="recommed-2">
+
+                <input type="radio"
+
+                       id="recommed-2"
+
+                       name="recommed">No</input>
+
+            </label>
+
+            
+
+        </div>
+
+  
+
+        <div class="form-control">
+
+            <label>VACCINATION
+
+                <small>(only one apply)</small>
+
+            </label>
+
+            
+
+            
+
+            <label for="inp-1">
+
+                <input type="checkbox"
+
+                       name="inp">FIRST DOSE TAKEN</input></label>
+
+            <label for="inp-2">
+
+                <input type="checkbox"
+
+                       name="inp">SECOND DOSE TAKEN</input></label>
+
+            <label for="inp-3">
+
+                <input type="checkbox"
+
+                       name="inp">NOT A SINGLE DOSE TAKEN</input></label>
+
+            
+
+        </div>
+
+  
+<div>
+       <label>
+			
+			<tr>
+            <td>IF FIRST DOSE TAKEN THEN SECOND DOSE DATE(DD/MM/YYYY):</td>
+            <td><input type="date" id="name" name="date"
+            placeholder="Enter your date"></td>
+        </tr>
+ </label>
+</div>
+            
+        
+
+  
+
+
+        <button type="submit" value="submit">
+
+            Submit
+
+        </button>
+
+    </form>
+
+</body>
+
+  
+
+</html>
